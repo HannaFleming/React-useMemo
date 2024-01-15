@@ -26,12 +26,6 @@ const handleSearch = (e) => {
   setSearch(text)
 
 }
-```
-
-![Screenshot 2024-01-15 123046](https://github.com/HannaFleming/React-useMemo/assets/124400864/86823c9c-b96d-48a8-94c6-d60ca2c4a844)
-
-
-
 
 
 const filteredFruit = useMemo( () =>  fruits.filter((fruit) => {
@@ -58,3 +52,4 @@ export default App;
 
 
 ```
+![Screenshot 2024-01-15 123046](https://github.com/HannaFleming/React-useMemo/assets/124400864/86823c9c-b96d-48a8-94c6-d60ca2c4a844)
